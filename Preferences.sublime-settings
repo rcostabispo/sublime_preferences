@@ -1,0 +1,50 @@
+//
+// Place your settings in the file "User/Preferences.sublime-settings".
+//
+
+{
+  // Show folders in the side bar in bold
+  "bold_folder_labels": true,
+
+  // When drag_text is enabled, clicking on selected text will begin a
+  // drag-drop operation. This is not currently implemented under Linux.
+  "drag_text": false,
+
+  // Note that the font_face and font_size are overridden in the platform
+  // specific settings file, for example, "Preferences (Linux).sublime-settings".
+  // Because of this, setting them here will have no effect: you must set them
+  // in your User File Preferences.
+  "font_size": 11,
+
+  // If enabled, will highlight any line with a caret
+  "highlight_line": true,
+
+  // List any packages to ignore here. When removing entries from this list,
+  // a restart may be required if the package contains plugins.
+  "ignored_packages": ["Vintage"],
+
+  // Makes tabs with modified files more visible
+  "highlight_modified_tabs": true,
+
+  // Columns in which to display vertical rulers
+  "rulers": [80],
+
+  // Show the full path to files in the title bar.
+  // On OS X, this value is overridden in the platform specific settings, so
+  // you'll need to place this line in your user settings to override it.
+  "show_full_path": true,
+
+  // The number of spaces a tab is considered equal to
+  "tab_size": 2,
+
+  // Set to true to insert spaces when tab is pressed
+  "translate_tabs_to_spaces": true,
+
+  // Set to true to removing trailing white space on save
+  "trim_trailing_white_space_on_save": true,
+
+  // Disables horizontal scrolling if enabled.
+  // May be set to true, false, or "auto", where it will be disabled for
+  // source code, and otherwise enabled.
+  "word_wrap": false
+}
